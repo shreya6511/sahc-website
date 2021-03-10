@@ -249,6 +249,16 @@ header {
 	overflow: hidden;
 }
 /**partners**/
+.title-2::before{
+	content: ' '; 
+	background: #FFB923;
+	height: 2px; 
+	width: 200px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block; 
+	transform: translateY(30px);
+}
 .google-maps {
   	position: relative;
     padding-bottom: 50%;
